@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html{
+    background-image: linear-gradient(to right, #ff69b4, #9400d3, #ff69b4);
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main{
+    background-color: white;
+    border-radius: 00.5em;
+    width: 25%;
+    padding: 1rem;
+    margin-top: 10%;
+    box-shadow: 5px 10px;
+}
+
+section{
+    background-color: white;
+    width: 100%;
+    padding: 1em;
+}
+
+section h4{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section img{
+    width: 2em;
+    height: 2em;
+}
+
+#imagens{
+    display: flex;
+    justify-content: space-around;
+}
+
+#esqueceu{
+    font-size: 0.75em;
+}
+
+h2{
+    text-align: center;
+    font-size: 2em;
+    margin: 10px;
+}
+
+p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 1.25em;
+}
+
+form input{
+    border-radius: 0.5em;
+    height: 3em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    width: 100%;
+}
+
+main div button{
+    margin-top: 1em;
+    font-size: 1.2em;
+    padding: 0.5em;
+    width: 40%;
+    border-radius: 1em;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
